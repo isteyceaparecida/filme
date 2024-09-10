@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    background-image: url("fumaca1.jpg");
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #cccccc4d;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.945);
+
+}
+
+ #titulo{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #f10303;
+}
+
+#BuscarFilme {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2a51fada;
+    color: #000000;
+    cursor: pointer;
+}
+#apagar{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2a51fada;
+    color: #000000;
+    cursor: pointer;
+
+}

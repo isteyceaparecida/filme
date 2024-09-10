@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Filmes - OMDb API</title>
+    <link rel="stylesheet" href="Filme.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Busca de Filmes</h1>
+        <input type="text" id="titulo">
+        <input  type="submit" value="Buscar" id="BuscarFilme">
+        <a href="Filme.html"><input type="submit" value="Apagar" id="apagar"></a>
+        <div>
+            <h2 id="resultado"></h2>
+            <img id="poster" style="max-width: 300px;" >
+            <p><strong>Ano de Lançamento:</strong> <span id="ano"></span></p>
+            <p><strong>Gênero:</strong> <span id="genero"></span></p>
+            <p><strong>Duração:</strong> <span id="duracao"></span></p>
+        </div>
+    </div>
+    <script src="filme.js"></script>
+</body>
+</html>
